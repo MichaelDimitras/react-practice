@@ -7,7 +7,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, '../dist')));
 
 app.get('/characters', (req, res) => {
-  axios.get('https://swapi.co/api/people')
+  axios.get('https://www.fantasyfootballnerd.com/service/players/json/d8hwmqs4g52u/')
     .then(apiRes => res.json(apiRes.data))
     .catch(err => console.error('Error connecting to API', err));
 });

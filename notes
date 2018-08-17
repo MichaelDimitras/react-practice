@@ -1,0 +1,6 @@
+Render the players First name, last name, team and position in the list.
+
+Make it so that when I click on a player, they are added to my team. Track the players on my team with state, and alert my current team each time the roster is updated.
+
+Add a component at the top of the list that makes the players searchable.
+
