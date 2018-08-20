@@ -13,9 +13,8 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('/characters')
+    axios.get('/players')
       .then(data => {
-        console.log(data.data.Players);
         this.setState({players: data.data.Players});
       })
       .catch(err => console.error('Error getting data from server', err));
